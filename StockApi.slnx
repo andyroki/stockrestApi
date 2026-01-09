@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockApi.Tests/StockApi.Tests.csproj" Id="d7adf8e0-e434-43c4-b5de-0bd633affd0e" />
+  <Project Path="StockApi/StockApi.csproj" />
+</Solution>

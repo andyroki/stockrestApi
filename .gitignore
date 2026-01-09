@@ -1,0 +1,65 @@
+##################################
+# OS / System files
+##################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+##################################
+# Visual Studio (CRITICAL)
+##################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+##################################
+# Build outputs
+##################################
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+##################################
+# .NET SDK / tooling
+##################################
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+##################################
+# ASP.NET Core
+##################################
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.user
+
+# HTTPS dev certs
+*.pfx
+
+##################################
+# User secrets
+##################################
+secrets.json
+
+##################################
+# Entity Framework Core
+##################################
+# Keep migrations, ignore temp files
+**/Migrations/*
+!**/Migrations/*.cs
+!**/Migrations/*.Designer.cs
+!**/Migrations/*ModelSnapshot.cs
+
+##################################
+# Logs
+##################################
+*.log
+
+##################################
+# Publish output
+##################################
+publi
