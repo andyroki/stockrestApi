@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ProductionPolicy", policy =>
     {
-        policy.WithOrigins("https://game.rokizone.com", "https://dev.rokizone.com")
+        policy.WithOrigins("https://game.rokizone.com", "https://dev.rokizone.com","https://tradepast.com")
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
